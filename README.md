@@ -9,8 +9,8 @@ FastFood House is a responsive multi-page restaurant website built with HTML, CS
 - **Brandon Bahena**: Built JavaScript functionality and `about.html`.
 
 ## Live Site URL (Deployed)
-- **Current status**: Not deployed yet.
-- **Planned GitHub Pages URL**: `https://abkhan79.github.io/Group1/`
+- **Current status**: Deployed ✅
+- **Live site URL**: `https://fast-food-house.netlify.app/`
 
 ## Screenshots
 ### Project Screenshot
