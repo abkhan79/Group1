@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="FastFood House Special Offers - Limited time deals on your favorite burgers, wings, and more.">
+    <title>Special Offers - FastFood House</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html" aria-label="FastFood House Home">
+                    <span class="logo-icon">🍔</span>
+                    <span class="logo-text">FastFood House</span>
+                </a>
+            </div>
+            <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle mobile menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Menu</a></li>
+                <li><a href="special.html" aria-current="page">Specials</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header" role="region" aria-label="Specials page header">
+        <div class="container">
+            <h1>🔥 Special Offers</h1>
+            <p>Limited-time deals you don't want to miss. Fresh savings, every week.</p>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- Countdown Timer -->
+        <section class="countdown-section" aria-labelledby="countdown-heading">
+            <h2 id="countdown-heading">⏳ Weekly Deals End In</h2>
+            <p>Hurry — these prices won't last forever!</p>
+            <div class="countdown-timer" role="timer" aria-live="polite" aria-label="Time remaining for weekly deals">
+                <div class="timer-block">
+                    <span class="timer-number" id="days">00</span>
+                    <span class="timer-label">Days</span>
+                </div>
+                <div class="timer-block">
+                    <span class="timer-number" id="hours">00</span>
+                    <span class="timer-label">Hours</span>
+                </div>
+                <div class="timer-block">
+                    <span class="timer-number" id="minutes">00</span>
+                    <span class="timer-label">Minutes</span>
+                </div>
+                <div class="timer-block">
+                    <span class="timer-number" id="seconds">00</span>
+                    <span class="timer-label">Seconds</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Specials Grid -->
+        <section class="specials-section" aria-labelledby="specials-heading">
+            <div class="container">
+                <h2 id="specials-heading">This Week's Deals</h2>
+                <p class="specials-intro">Hand-picked value meals and combos — because great food should be affordable too.</p>
+
+                <div class="specials-grid">
+
+                    <!-- Burger Combo -->
+                    <article class="special-card reveal">
+                        <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=500&h=220&fit=crop" alt="Burger combo with fries and drink">
+                        <span class="special-badge">Best Seller</span>
+                        <div class="special-card-body">
+                            <h2>🍔 Burger Combo</h2>
+                            <p>Any signature burger + crispy fries + a fountain drink. The classic trio, priced right.</p>
+                            <div class="special-card-footer">
+                                <div class="price-group">
+                                    <span class="price-old">$16.99</span>
+                                    <span class="price">$12.99</span>
+                                </div>
+                                <a href="contact.html" class="order-btn" aria-label="Order Burger Combo">Order Now</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Wings Deal -->
+                    <article class="special-card reveal">
+                        <img src="https://images.unsplash.com/photo-1567620832903-9fc6debc209f?w=500&h=220&fit=crop" alt="24 wings with dipping sauces">
+                        <span class="special-badge">🔥 Hot Deal</span>
+                        <div class="special-card-body">
+                            <h2>🍗 Wings Party Pack</h2>
+                            <p>24 crispy wings with your choice of 2 sauces — Buffalo, BBQ, or Honey Garlic. Perfect for sharing.</p>
+                            <div class="special-card-footer">
+                                <div class="price-group">
+                                    <span class="price-old">$21.99</span>
+                                    <span class="price">$15.99</span>
+                                </div>
+                                <a href="contact.html" class="order-btn" aria-label="Order Wings Party Pack">Order Now</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Healthy Combo -->
+                    <article class="special-card reveal">
+                        <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=500&h=220&fit=crop" alt="Fresh salad with juice">
+                        <span class="special-badge">Healthy Pick</span>
+                        <div class="special-card-body">
+                            <h2>🥗 Healthy Combo</h2>
+                            <p>Your choice of any salad paired with a fresh-pressed juice or smoothie. Light, fresh, and satisfying.</p>
+                            <div class="special-card-footer">
+                                <div class="price-group">
+                                    <span class="price-old">$13.99</span>
+                                    <span class="price">$9.99</span>
+                                </div>
+                                <a href="contact.html" class="order-btn" aria-label="Order Healthy Combo">Order Now</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Pizza + Wings -->
+                    <article class="special-card reveal">
+                        <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=500&h=220&fit=crop" alt="Pizza and wings combo">
+                        <span class="special-badge">New!</span>
+                        <div class="special-card-body">
+                            <h2>🍕 Pizza + Wings Combo</h2>
+                            <p>One large pizza of your choice plus 8 wings. The ultimate Friday night combo — feeds 2 to 3.</p>
+                            <div class="special-card-footer">
+                                <div class="price-group">
+                                    <span class="price-old">$24.99</span>
+                                    <span class="price">$18.99</span>
+                                </div>
+                                <a href="contact.html" class="order-btn" aria-label="Order Pizza and Wings Combo">Order Now</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Family Feast -->
+                    <article class="special-card reveal">
+                        <img src="https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=500&h=220&fit=crop" alt="Family feast spread of food">
+                        <span class="special-badge">Family Size</span>
+                        <div class="special-card-body">
+                            <h2>👨‍👩‍👧‍👦 Family Feast</h2>
+                            <p>4 burgers, 12 wings, 4 sides, and 4 drinks. Everything the whole family needs in one great deal.</p>
+                            <div class="special-card-footer">
+                                <div class="price-group">
+                                    <span class="price-old">$54.99</span>
+                                    <span class="price">$39.99</span>
+                                </div>
+                                <a href="contact.html" class="order-btn" aria-label="Order Family Feast">Order Now</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Student Deal -->
+                    <article class="special-card reveal">
+                        <img src="https://images.unsplash.com/photo-1550547660-d9450f859349?w=500&h=220&fit=crop" alt="Student meal deal burger and fries">
+                        <span class="special-badge">Students Only</span>
+                        <div class="special-card-body">
+                            <h2>🎓 Student Deal</h2>
+                            <p>Show your student ID and get a burger, fries, and drink at a price that actually respects your budget.</p>
+                            <div class="special-card-footer">
+                                <div class="price-group">
+                                    <span class="price-old">$14.99</span>
+                                    <span class="price">$8.99</span>
+                                </div>
+                                <a href="contact.html" class="order-btn" aria-label="Order Student Deal">Order Now</a>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Banner -->
+        <section class="cta-section" aria-labelledby="cta-heading">
+            <div class="container">
+                <h2 id="cta-heading">Want Something Custom?</h2>
+                <p>Can't find the combo you're looking for? Get in touch and we'll make it work.</p>
+                <a href="contact.html" class="cta-button primary" aria-label="Contact us to create a custom order">Contact Us</a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>FastFood House</h4>
+                    <p>Serving delicious fast food with a commitment to quality and customer satisfaction.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Menu</a></li>
+                        <li><a href="special.html">Specials</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <address>
+                        <p>123 Food Street, Flavor City, FC 12345</p>
+                        <p><a href="tel:+1234567890">(123) 456-7890</a></p>
+                        <p><a href="mailto:info@fastfoodhouse.com">info@fastfoodhouse.com</a></p>
+                    </address>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <ul class="social-links">
+                        <li><a href="https://facebook.com" aria-label="Visit our Facebook page">Facebook</a></li>
+                        <li><a href="https://twitter.com" aria-label="Visit our Twitter page">Twitter</a></li>
+                        <li><a href="https://instagram.com" aria-label="Visit our Instagram page">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 FastFood House Restaurant. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <!-- Countdown Timer Script (self-contained for this page) -->
+    <script>
+        // Set countdown to end of this Sunday (weekly reset)
+        function getNextSunday() {
+            const now = new Date();
+            const day = now.getDay(); // 0=Sun
+            const daysUntilSunday = day === 0 ? 7 : 7 - day;
+            const next = new Date(now);
+            next.setDate(now.getDate() + daysUntilSunday);
+            next.setHours(23, 59, 59, 0);
+            return next;
+        }
+
+        const deadline = getNextSunday();
+
+        function updateCountdown() {
+            const now = new Date().getTime();
+            const distance = deadline - now;
+
+            if (distance <= 0) {
+                document.getElementById('days').textContent    = '00';
+                document.getElementById('hours').textContent   = '00';
+                document.getElementById('minutes').textContent = '00';
+                document.getElementById('seconds').textContent = '00';
+                return;
+            }
+
+            const d = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const h = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const m = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const s = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById('days').textContent    = String(d).padStart(2, '0');
+            document.getElementById('hours').textContent   = String(h).padStart(2, '0');
+            document.getElementById('minutes').textContent = String(m).padStart(2, '0');
+            document.getElementById('seconds').textContent = String(s).padStart(2, '0');
+        }
+
+        updateCountdown();
+        setInterval(updateCountdown, 1000);
+    </script>
+
+</body>
+</html>
